@@ -9,8 +9,8 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #f7f7ff;
-  color: #4f4846;
+  background-color: #dededeff;
+  color: #424345ff;
 }
 
 h1,
@@ -38,20 +38,20 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: rgb(73, 140, 138);
+  background-color: #93b1bcff;
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #725d68;
+  border-bottom: 10px solid #e4dcbeff;
 }
 
 footer {
   position: absolute;
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #4f4846;
-  color: #fdf8f5;
+  border-bottom: 10px solid #e4dcbeff;
+  color: #dededeff;
 }
 
 figure {
@@ -114,4 +114,7 @@ button {
 
 .profpic {
   height: 200px;
+  border-radius: 100px;
+  padding: 15px;
+  border: solid 5px #0c2461;
 }
