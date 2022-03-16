@@ -15,15 +15,13 @@ I have created a professional portfolio to showcase my web development work. It 
 
 [GitHub Repo](https://github.com/mschmitzzz/hw-2-professional-portfolio)
 
-[Deployed Link]()
+[Deployed Link](https://mschmitzzz.github.io/hw-2-professional-portfolio/)
 
 ## Screenshot
 
-![screenshot](develop/assets/images/screenshot.png)
+![screenshot](assets/images/screenshot.png)
 
 ## Credits
-
-The source code came from the Georgia Tech Coding Bootcamp [repository](https://gt.bootcampcontent.com/GT-Coding-Boot-Camp/GT-VIRT-FSF-PT-02-2022-U-LOL)
 
 ## License
 
