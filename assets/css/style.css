@@ -146,16 +146,16 @@ button {
 }
 
 .img1 {
-  background-image: url(/assets/images/rps.jpeg);
+  background-image: url("../images/rps.jpeg");
 }
 .img2 {
-  background-image: url(/assets/images/code.jpeg);
+  background-image: url("../images/code.jpeg");
 }
 .img3 {
-  background-image: url(/assets/images/cheatsheet.png);
+  background-image: url("../images/cheatsheet.png");
 }
 .img4 {
-  background-image: url(/assets/images/landingpage.png);
+  background-image: url("../images/landingpage.png");
 }
 
 .card h3 {
