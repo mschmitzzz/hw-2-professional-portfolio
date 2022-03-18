@@ -2,7 +2,7 @@ body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #0b0a0c;
+  background-image: radial-gradient(#3e3744, #19161c, #0b0a0c);
   color: #dededeff;
 }
 
@@ -15,6 +15,10 @@ h1 {
   font-size: 32px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 700;
+}
+
+h2 {
+  font-size: 29px;
 }
 
 main {
@@ -42,13 +46,13 @@ footer {
 
 header {
   position: fixed;
-  border-bottom: 10px solid #e4dcbeff;
+  border-bottom: 10px solid #3e3744;
 }
 
 footer {
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #e4dcbeff;
+  border-bottom: 10px solid #3e3744;
   color: #dededeff;
 }
 
@@ -59,8 +63,7 @@ figure {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid #9d6a89;
-  background-color: #f7f7ff;
+  border-top: 3px solid #3e3744;
 }
 
 form {
@@ -68,7 +71,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #9d6a89;
+  border: 5px solid #3e3744;
   border-radius: 20px;
 }
 
@@ -116,7 +119,7 @@ button {
   height: 200px;
   border-radius: 100px;
   padding: 15px;
-  border: solid 5px #0c2461;
+  border: solid 5px #3e3744;
   display: block;
   margin: 20px auto;
 }
@@ -130,18 +133,10 @@ button {
 .card {
   background: white;
   width: 30%;
-  /* height: 100px; */
   margin: 2%;
   border-radius: 15px;
+  text-align: center;
 }
-
-/* .card:nth-child(4n-3) {
-  width: 60%;
-} */
-
-/* #first-card {
-  width: 500px;
-} */
 
 .card-image {
   height: 300px;
@@ -165,9 +160,13 @@ button {
 
 .card h3 {
   padding: 10px;
+  color: #0b0a0c;
+  font-weight: 900;
 }
 .card p {
   padding: 10px;
+  line-height: 30px;
+  color: #3e3744;
 }
 .card a {
   background-color: black;
