@@ -1,21 +1,20 @@
-/* Universal Selector */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* Element Selectors */
 body {
   position: relative;
   font-family: "Goudy Bookletter 1911", sans-serif;
   font-size: 20px;
-  background-color: #dededeff;
-  color: #424345ff;
+  background-color: #0b0a0c;
+  color: #dededeff;
 }
 
 h1,
 h2 {
   margin: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
 }
 
 main {
@@ -38,7 +37,7 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color: #93b1bcff;
+  background-image: radial-gradient(#0b0a0c, #19161c, #3e3744);
 }
 
 header {
@@ -47,7 +46,6 @@ header {
 }
 
 footer {
-  position: fixed;
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid #e4dcbeff;
@@ -56,11 +54,6 @@ footer {
 
 figure {
   margin-bottom: 40px;
-}
-
-img {
-  display: block;
-  margin: 20px auto;
 }
 
 section {
@@ -112,31 +105,76 @@ button {
   text-align: right;
 }
 
+.logo {
+  height: 50px;
+  display: block;
+  float: left;
+  margin: 0px;
+}
+
 .profpic {
   height: 200px;
   border-radius: 100px;
   padding: 15px;
   border: solid 5px #0c2461;
+  display: block;
+  margin: 20px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
-  border-style: solid;
-  border-width: 1px;
+  background: white;
+  width: 30%;
+  /* height: 100px; */
+  margin: 2%;
+  border-radius: 15px;
+}
+
+/* .card:nth-child(4n-3) {
+  width: 60%;
+} */
+
+/* #first-card {
+  width: 500px;
+} */
+
+.card-image {
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.img1 {
+  background-image: url(/assets/images/rps.jpeg);
+}
+.img2 {
+  background-image: url(/assets/images/code.jpeg);
+}
+.img3 {
+  background-image: url(/assets/images/cheatsheet.png);
+}
+.img4 {
+  background-image: url(/assets/images/landingpage.png);
+}
+
+.card h3 {
   padding: 10px;
-  float: left;
-  width: 25%;
 }
-
-.card header {
-  padding: 20px;
-}
-
 .card p {
-  text-align: center;
+  padding: 10px;
 }
-
-.card img {
-  width: 100%;
+.card a {
+  background-color: black;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 10px 50px;
 }
 
 /* Cards are split into two columns at 992px or smaller */
