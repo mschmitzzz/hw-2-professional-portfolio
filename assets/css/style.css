@@ -181,6 +181,7 @@ button {
   background-color: #d2cada;
   cursor: pointer;
   transform: scale(1.03);
+  transition: all 1s ease;
 }
 #first-card {
   width: 64%;
