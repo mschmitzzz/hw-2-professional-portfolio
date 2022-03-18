@@ -179,6 +179,9 @@ button {
   cursor: pointer;
   transform: scale(1.03);
 }
+#first-card {
+  width: 64%;
+}
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
   .card {

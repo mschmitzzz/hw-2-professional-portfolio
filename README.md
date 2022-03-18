@@ -2,7 +2,7 @@
 
 ## Description
 
-I have created a professional portfolio to showcase my web development work. It is very basic at the moment and is meant to show my current understanding of HTML and CSS. I have a working nav bar and basic site layout with a contact form, but I am still working on responsive designs with media queries and flexbox. I plan to add more advanced CSS hover, filter, and transition features. This is a work in progress that will be developed more in depth as I progress through the bootcamp.
+I have created a professional portfolio to showcase my web development work. It is meant to show my current understanding of HTML and CSS. I have a working nav bar and basic site layout with a contact form, and have created a responsive design with media queries and flexbox. I also added hover effects to the image cards. This is a work in progress that will be developed more in depth as I progress through the bootcamp.
 
 ## Table of Contents
 
