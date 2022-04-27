@@ -68,7 +68,7 @@ section {
 
 form {
   /* Center the form on the page */
-  margin: 0 auto;
+  margin: 15px auto;
   width: 500px;
   padding: 10px;
   border: 5px solid #3e3744;
@@ -146,19 +146,19 @@ button {
 }
 
 .img1 {
-  background-image: url("../images/rps.jpeg");
+  background-image: url("../images/wildlife.png");
 }
 .img2 {
-  background-image: url("../images/code.jpeg");
+  background-image: url("../images/quiz.png");
 }
 .img3 {
-  background-image: url("../images/cheatsheet.png");
+  background-image: url("../images/password.png");
 }
 .img4 {
-  background-image: url("../images/landingpage.png");
+  background-image: url("../images/cheatsheet.png");
 }
 .img5 {
-  background-image: url("../images/prework.png");
+  background-image: url("../images/code.jpeg");
 }
 
 .card h3 {
@@ -186,6 +186,7 @@ button {
 #first-card {
   width: 64%;
 }
+
 /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
   .card {
