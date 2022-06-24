@@ -161,6 +161,10 @@ button {
   background-image: url("../images/code.jpeg");
 }
 
+.img6 {
+  background-image: url("../images/geek.png");
+}
+
 .card h3 {
   padding: 10px;
   color: #0b0a0c;
